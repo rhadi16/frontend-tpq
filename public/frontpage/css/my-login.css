@@ -1,0 +1,14 @@
+.card {
+	margin: 30px auto;
+}
+.card .card-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+form label {
+	font-weight: bold;
+	margin-left: 12px;
+}
