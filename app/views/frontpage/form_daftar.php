@@ -5,9 +5,9 @@
 	<meta name="author" content="Kodinger">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>DIGITAL TK-TPA</title>
-	<link rel="shortcut icon" href="<?php BASEURL; ?>frontpage/gambar/logo-tpa.png" type="image/x-icon">
+	<link rel="shortcut icon" href="<?php BASEURL; ?>gambar/logo-tpa.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="<?php BASEURL; ?>frontpage/css/my-login.css">
+	<link rel="stylesheet" type="text/css" href="<?php BASEURL; ?>css/my-login.css">
 </head>
 
 <style type="text/css">

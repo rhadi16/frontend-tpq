@@ -9,11 +9,4 @@ class backpage_pendaftaran extends Controller {
         $this->view('backpage/templates/footer');
     }
 
-    public function tambah_pendaftaran()
-    {
-        $this->view('backpage/templates/header');
-        $this->view('backpage/pendaftaran_tambah');
-        $this->view('backpage/templates/footer');
-    }
-
 }

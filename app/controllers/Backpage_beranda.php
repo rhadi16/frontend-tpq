@@ -10,7 +10,3 @@ class backpage_beranda extends Controller {
     }
 
 }
-
-
-
-

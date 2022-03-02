@@ -286,7 +286,7 @@
                         <div class="mbr-section-text">
                             <div class="row">
                                 <div class="col-lg-12 text-xs-right" style="margin-bottom: 50px;">
-                                    <a class="btn btn-lg btn-info-outline" href="<?php BASEURL; ?>"><span class="fa fa-backward"></span> KEMBALI </a>
+                                    <a class="btn btn-lg btn-info-outline" href="<?php BASEURL; ?>backpage_pendaftaran"><span class="fa fa-backward"></span> KEMBALI </a>
                                     <button type="submit" name="simpan" class="btn btn-lg btn-primary">Simpan&nbsp;<span class="fa fa-save"></span></button>
                                 </div>
                             </div>

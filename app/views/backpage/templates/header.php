@@ -134,11 +134,11 @@
 
                             <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_beranda">Beranda</a></li>
                             <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_pendaftaran">Pendaftaran</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="santri_view.php">Kelola Siswa</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="pengurus.php">Kelola Guru</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="donatur.php">Pemasukan</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="inventaris.php">Inventaris</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="referensi_bacaan_sholat.php">Kelola Referensi</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_santri">Kelola Siswa</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_pengurus">Kelola Guru</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_donatur">Pemasukan</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_inventaris">Inventaris</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_referensi_bacaan_sholat">Kelola Referensi</a></li>
                             <li class="nav-item"><a class="nav-link link confirmation-logout" style="cursor: pointer;">Logout</a></li>
  
 
@@ -146,8 +146,8 @@
                           }elseif($_SESSION['hakakses_D1g1t4LTPQ']=="STAF REKAP"){
                         ?>
 
-                            <li class="nav-item"><a class="nav-link link" href="index.php">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="rekap_view.php">Rekap</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_beranda">Beranda</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_rekap_view">Rekap</a></li>
                             <li class="nav-item"><a class="nav-link link confirmation-logout" style="cursor: pointer;">Logout</a></li>
  
 
@@ -156,9 +156,9 @@
                         ?>
 
 
-                            <li class="nav-item"><a class="nav-link link" href="index.php">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="scan_or_manual_view.php">Scan Ulang</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="ijin_santri_view.php">Ijin & Sakit</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_beranda">Beranda</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_scan_or_manual_view">Scan Ulang</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_ijin_santri_view">Ijin & Sakit</a></li>
                             <li class="nav-item"><a class="nav-link link confirmation-logout" style="cursor: pointer;">Logout</a></li>
                         
                         <?php 

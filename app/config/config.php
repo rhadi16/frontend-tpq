@@ -1,6 +1,6 @@
 <?php 
 
-define('BASEURL', 'http://localhost/frontend/public/');
+define('BASEURL', 'http://localhost/frontend-tpq/public/');
 
 // DB
 define('DB_HOST', 'localhost');

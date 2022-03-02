@@ -120,7 +120,7 @@ nav .navbar-collapse {
 </style>
 
 <meta name="description" content="">
-<link href="css/css.css" rel="stylesheet">
+<link href="<?php BASEURL; ?>frontpage/css/css.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
 

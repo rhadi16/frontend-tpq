@@ -46,7 +46,7 @@
                         <div class="row">
 
                           <div class="col-xs-12">
-                            <a href="<?php BASEURL; ?>backpage_pendaftaran/tambah_pendaftaran" class="btn btn-lg btn-warning">
+                            <a href="<?php BASEURL; ?>backpage_tambah_pendaftaran" class="btn btn-lg btn-warning">
                               <span class="fa fa-plus"></span>&nbsp;Tambah Pendaftar
                             </a>
                           </div>
