@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script id="twitter-wjs" src="<?php BASEURL; ?>frontpage/js/widgets.js.download"></script>
+<script id="twitter-wjs" src="<?= BASEURL; ?>frontpage/js/widgets.js.download"></script>
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,11 +84,11 @@ img {vertical-align: middle;}
 
 main .masthead {
   background-color: #3e2723;
-  background-image: url(<?php BASEURL; ?>frontpage/css/overlay.svg),linear-gradient(45deg ,#3e2723 0%,#5d4037 100%);
+  background-image: url(<?= BASEURL; ?>frontpage/css/overlay.svg),linear-gradient(45deg ,#3e2723 0%,#5d4037 100%);
 }
 div.mailchimp {
   background-color: #3e2723;
-  background-image: url(<?php BASEURL; ?>frontpage/css/overlay.svg),linear-gradient(45deg ,#3e2723 0%,#5d4037 100%); 
+  background-image: url(<?= BASEURL; ?>frontpage/css/overlay.svg),linear-gradient(45deg ,#3e2723 0%,#5d4037 100%); 
 }
 button.btn-warning {
   background-color: #4caf50;
@@ -120,13 +120,13 @@ nav .navbar-collapse {
 </style>
 
 <meta name="description" content="">
-<link href="<?php BASEURL; ?>frontpage/css/css.css" rel="stylesheet">
+<link href="<?= BASEURL; ?>frontpage/css/css.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
 
-<link href="<?php BASEURL; ?>frontpage/css/font-awesome.css" rel="stylesheet">
+<link href="<?= BASEURL; ?>frontpage/css/font-awesome.css" rel="stylesheet">
 
-<link rel="stylesheet" href="<?php BASEURL; ?>frontpage/css/style-template.css">
+<link rel="stylesheet" href="<?= BASEURL; ?>frontpage/css/style-template.css">
 
 <meta name="ir-site-verification-token" value="-28223945">
 
@@ -138,9 +138,9 @@ nav .navbar-collapse {
 <meta property="og:url" content="#">
 <meta property="og:image:alt" content="DIGITAL TPQ">
 
-<link rel="apple-touch-icon" sizes="180x180" href="<?php BASEURL; ?>frontpage/gambar/logo-tpa.png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?php BASEURL; ?>frontpage/gambar/logo-tpa.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?php BASEURL; ?>frontpage/gambar/logo-tpa.png">
+<link rel="apple-touch-icon" sizes="180x180" href="<?= BASEURL; ?>frontpage/gambar/logo-tpa.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?= BASEURL; ?>frontpage/gambar/logo-tpa.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?= BASEURL; ?>frontpage/gambar/logo-tpa.png">
 <meta name="msapplication-TileColor" content="#dd3d31">
 <meta name="theme-color" content="#ffffff">
 </head>

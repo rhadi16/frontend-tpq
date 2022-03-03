@@ -4,7 +4,7 @@
  <div class="container">
 
   <a class="navbar-brand" href="index.php">
-     <img src="<?php BASEURL; ?>frontpage/gambar/logo-tpa.png" alt="DIGITAL TPQ">
+     <img src="<?= BASEURL; ?>frontpage/gambar/logo-tpa.png" alt="DIGITAL TPQ">
       <span class="ml-1">Digital TPQ</span>
   </a>
 
@@ -16,7 +16,7 @@
  
       <ul class="navbar-nav mr-auto pt-3 pt-lg-0">
         <li class="nav-item">
-          <a class="nav-link btn" href="<?php BASEURL; ?>"><i class="fa fa-home"></i> Beranda</a>
+          <a class="nav-link btn" href="<?= BASEURL; ?>"><i class="fa fa-home"></i> Beranda</a>
         </li>
      	  <li class="nav-item" id="muncul_tentang">
           <a class="nav-link btn" href="#"><i class="fa fa-info-circle"></i> Tentang Aplikasi</a>
@@ -41,9 +41,9 @@
 <h2 class="m-0">Digital TPQ Adalah Aplikasi Manajemen Administrasi Yang Diperuntukkan Bagi TPQ atau Taman Pendidikan Quran Di Buat Oleh  TPQ Masjid Nurul Ishlah</h2>
 </div>
 <div class="col-lg-4">
-<script async="" type="text/javascript" src="<?php BASEURL; ?>frontpage/js/carbon.js.download" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a class="carbon-img" rel="noopener"><img src="<?php BASEURL; ?>frontpage/gambar/logo-tpa.png" alt="TPQ Masjid Nurul Ishlah" border="0" height="100" width="130" style="max-width: 100px; background-color: #d7ccc8;"></a><a class="carbon-text" target="_blank" rel="noopener">
+<script async="" type="text/javascript" src="<?= BASEURL; ?>frontpage/js/carbon.js.download" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a class="carbon-img" rel="noopener"><img src="<?= BASEURL; ?>frontpage/gambar/logo-tpa.png" alt="TPQ Masjid Nurul Ishlah" border="0" height="100" width="130" style="max-width: 100px; background-color: #d7ccc8;"></a><a class="carbon-text" target="_blank" rel="noopener">
 Mari Daftarkan Putra/Putri Anda Agar Menjadi Anak Yang Sholeh Dan Sholehah.
-</a></span><a href="<?php BASEURL; ?>frontpage/form_daftar" class="carbon-poweredby" rel="noopener">Form Pendaftaran</a></span></div>
+</a></span><a href="<?= BASEURL; ?>frontpage/form_daftar" class="carbon-poweredby" rel="noopener">Form Pendaftaran</a></span></div>
 </div>
 </div>
 </div>
@@ -92,31 +92,31 @@ Mari Daftarkan Putra/Putri Anda Agar Menjadi Anak Yang Sholeh Dan Sholehah.
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 5</div>
-  <img src="<?php BASEURL; ?>frontpage/gambar/image1.jpeg" style="width:100%">
+  <img src="<?= BASEURL; ?>frontpage/gambar/image1.jpeg" style="width:100%">
   <!-- <div class="text">Caption Two</div> -->
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 5</div>
-  <img src="<?php BASEURL; ?>frontpage/gambar/image2.jpeg" style="width:100%">
+  <img src="<?= BASEURL; ?>frontpage/gambar/image2.jpeg" style="width:100%">
   <!-- <div class="text">Caption Three</div> -->
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 5</div>
-  <img src="<?php BASEURL; ?>frontpage/gambar/image3.jpeg" style="width:100%">
+  <img src="<?= BASEURL; ?>frontpage/gambar/image3.jpeg" style="width:100%">
   <!-- <div class="text">Caption Three</div> -->
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">4 / 5</div>
-  <img src="<?php BASEURL; ?>frontpage/gambar/image4.jpeg" style="width:100%">
+  <img src="<?= BASEURL; ?>frontpage/gambar/image4.jpeg" style="width:100%">
   <!-- <div class="text">Caption Three</div> -->
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">5 / 5</div>
-  <img src="<?php BASEURL; ?>frontpage/gambar/image5.jpeg" style="width:100%">
+  <img src="<?= BASEURL; ?>frontpage/gambar/image5.jpeg" style="width:100%">
   <!-- <div class="text">Caption Three</div> -->
 </div>
 

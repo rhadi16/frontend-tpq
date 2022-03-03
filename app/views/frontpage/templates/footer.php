@@ -33,7 +33,7 @@
     </div>
 </div>
 
-<script src="<?php BASEURL; ?>frontpage/js/monetization.js.download" type="text/javascript"></script>
+<script src="<?= BASEURL; ?>frontpage/js/monetization.js.download" type="text/javascript"></script>
 
 
 <script>
@@ -81,24 +81,17 @@ function showSlides() {
 <div class="footer-main bg-dark py-5 small">
 <div class="container" style="color: rgba(255,255,255,.7)">
 TPQ MASJID NURUL ISHLAH <br>
-<?php echo $d2['alamat']; ?> <br>
-Kelurahan <?php echo $d2['kelurahan']; ?>, Kecamatan <?php echo $d2['kecamatan']; ?>, <?php echo $d2['kab_kota']; ?>
+ <br>
+Kelurahan , Kecamatan , 
 </div>
 </div>
 </footer>
 
-<?php
-    error_reporting(0);
-    $response  = $_GET['response']; 
-    if (isset($response)) {
-?>
-    <div class="flash-data" data-flashdata="<?php echo $response; ?>"></div>
-<?php } ?>
-<script async="" id="dsq-count-scr" src="<?php BASEURL; ?>frontpage/js/count.js.download" type="text/javascript"></script>
-<script src="<?php BASEURL; ?>frontpage/js/jquery-3.3.1.min.js.download"></script>
-<script src="<?php BASEURL; ?>frontpage/js/bootstrap.bundle.min.js.download"></script>
-<script type="text/javascript" src="<?php BASEURL; ?>frontpage/js/jquery.lazy.min.js"></script>
-<script src="<?php BASEURL; ?>frontpage/lib/sweetalert/sweetalert2.all.min.js"></script>
+<script async="" id="dsq-count-scr" src="<?= BASEURL; ?>frontpage/js/count.js.download" type="text/javascript"></script>
+<script src="<?= BASEURL; ?>frontpage/js/jquery-3.3.1.min.js.download"></script>
+<script src="<?= BASEURL; ?>frontpage/js/bootstrap.bundle.min.js.download"></script>
+<script type="text/javascript" src="<?= BASEURL; ?>frontpage/js/jquery.lazy.min.js"></script>
+<script src="<?= BASEURL; ?>frontpage/lib/sweetalert/sweetalert2.all.min.js"></script>
 
 <script type="text/javascript">
   
@@ -107,14 +100,6 @@ Kelurahan <?php echo $d2['kelurahan']; ?>, Kecamatan <?php echo $d2['kecamatan']
      $('#modal_tentang').modal('show');
 
   });
-  const flashdata = $('.flash-data').data('flashdata')
-  if (flashdata) {
-    Swal.fire(
-      'Selamat!',
-      'Anda Telah Melakukan Pendaftaran, Silahkan Menunggu Konfirmasi!',
-      'success'
-    )
-  }
 
 </script>
 

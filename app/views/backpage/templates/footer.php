@@ -3,14 +3,14 @@
     <a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a>
 </div> -->
 
-    <script src="<?php BASEURL; ?>backpage/assets/tether.min.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/bootstrap.min.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/SmoothScroll.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/script.min.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/jquery.touchSwipe.min.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/script.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/flipclock.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/tether.min.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/bootstrap.min.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/SmoothScroll.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/script.min.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/jquery.touchSwipe.min.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/script.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/flipclock.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
 
 <script type="text/javascript">
   

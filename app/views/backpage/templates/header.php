@@ -3,35 +3,35 @@
     <title>DIGITAL TPQ</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="<?php BASEURL; ?>backpage/assets/gambar/logo-tpa.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= BASEURL; ?>backpage/assets/gambar/logo-tpa.png" type="image/x-icon">
     <meta name="description" content="">
-    <link href="<?php BASEURL; ?>backpage/assets/font-awesome.css" rel="stylesheet">
+    <link href="<?= BASEURL; ?>backpage/assets/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/style.css">
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/material.css">
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/tether.min.css">
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/socicon.min.css">
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/style(1).css">
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/style(2).css">
-    <link href="<?php BASEURL; ?>backpage/assets/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/style.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/material.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/tether.min.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/socicon.min.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/style(1).css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/style(2).css">
+    <link href="<?= BASEURL; ?>backpage/assets/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet"> 
     <style type="text/css">.garis_inovasi{margin-top: 0.5em;margin-bottom: 0.5em;margin-left: auto;margin-right: auto;border-style: inset;border-width: 5px;}</style>
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/mbr-additional.css" type="text/css"><style>.cke{visibility:hidden;}</style></head>
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/mbr-additional.css" type="text/css"><style>.cke{visibility:hidden;}</style></head>
     <body style=""><section id="top-1" class="engine"><a href="https://mobirise.info/">Mobirise</a> Mobirise v4.5.4</section><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
   <div class="pace-progress-inner"></div>
 </div>
 <div class="pace-activity"></div></div>
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/flipclock.css" type="text/css">
-    <link href="<?php BASEURL; ?>backpage/assets/centerblue.css" rel="stylesheet">
-    <link href="<?php BASEURL; ?>backpage/assets/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/flipclock.css" type="text/css">
+    <link href="<?= BASEURL; ?>backpage/assets/centerblue.css" rel="stylesheet">
+    <link href="<?= BASEURL; ?>backpage/assets/main.css" rel="stylesheet">
     
-    <link rel="stylesheet" href="<?php BASEURL; ?>backpage/assets/jquery-ui.css">
-    <script src="<?php BASEURL; ?>backpage/assets/jquery.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/jquery-ui.js.download"></script>
-    <script src="<?php BASEURL; ?>backpage/assets/pace.min.js.download"></script>
+    <link rel="stylesheet" href="<?= BASEURL; ?>backpage/assets/jquery-ui.css">
+    <script src="<?= BASEURL; ?>backpage/assets/jquery.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/jquery-ui.js.download"></script>
+    <script src="<?= BASEURL; ?>backpage/assets/pace.min.js.download"></script>
     
     <div role="log" ariax-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"><div>Butuh bantuan kami?</div></div>
-    <link rel="stylesheet" type="text/css" href="<?php BASEURL; ?>backpage/assets/css/gigo-responsive.css">
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>backpage/assets/css/gigo-responsive.css">
 
     <style type="text/css">
         :root {
@@ -132,13 +132,13 @@
                           if($_SESSION['hakakses_D1g1t4LTPQ']=="ADMIN"){
                         ?>
 
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_beranda">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_pendaftaran">Pendaftaran</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_santri">Kelola Siswa</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_pengurus">Kelola Guru</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_donatur">Pemasukan</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_inventaris">Inventaris</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_referensi_bacaan_sholat">Kelola Referensi</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_beranda">Beranda</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_pendaftaran">Pendaftaran</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_santri">Kelola Siswa</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_pengurus">Kelola Guru</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_donatur">Pemasukan</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_inventaris">Inventaris</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_referensi_bacaan_sholat">Kelola Referensi</a></li>
                             <li class="nav-item"><a class="nav-link link confirmation-logout" style="cursor: pointer;">Logout</a></li>
  
 
@@ -146,8 +146,8 @@
                           }elseif($_SESSION['hakakses_D1g1t4LTPQ']=="STAF REKAP"){
                         ?>
 
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_beranda">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_rekap_view">Rekap</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_beranda">Beranda</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_rekap_view">Rekap</a></li>
                             <li class="nav-item"><a class="nav-link link confirmation-logout" style="cursor: pointer;">Logout</a></li>
  
 
@@ -156,9 +156,9 @@
                         ?>
 
 
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_beranda">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_scan_or_manual_view">Scan Ulang</a></li>
-                            <li class="nav-item"><a class="nav-link link" href="<?php BASEURL; ?>backpage_ijin_santri_view">Ijin & Sakit</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_beranda">Beranda</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_scan_or_manual_view">Scan Ulang</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="<?= BASEURL; ?>backpage_ijin_santri_view">Ijin & Sakit</a></li>
                             <li class="nav-item"><a class="nav-link link confirmation-logout" style="cursor: pointer;">Logout</a></li>
                         
                         <?php 
@@ -175,7 +175,7 @@
             </div>
         </nav>
     </section>
-   <script src="<?php BASEURL; ?>backpage/assets/sweetalert/dist/sweetalert2.all.min.js"></script>
+   <script src="<?= BASEURL; ?>backpage/assets/sweetalert/dist/sweetalert2.all.min.js"></script>
 
    <script type="text/javascript">
       $('.confirmation-logout').on('click', function(e) {
